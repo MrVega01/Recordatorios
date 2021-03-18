@@ -1,0 +1,36 @@
+.jumbotron {
+  background: -webkit-linear-gradient(to right, #0EB355, #64E9C2);
+  background: -o-linear-gradient(to right, #0EB355, #64E9C2);
+  background: linear-gradient(to right, #0EB355, #64E9C2);
+}
+.fontStyle {
+  font-family: 'Raleway', sans-serif;
+}
+.fontSize {
+  font-size: 1.3rem;
+}
+.textWhite {
+  color: white;
+}
+.textShadow {
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+#colorNuevoRecordatorio{
+  color: #0EB355;
+}
+#colorPendientes{
+  color: #64E9C2;
+}
+.colorground {
+  padding: 0.7rem;
+  margin-bottom: 0.5rem;
+  background-color: #64E9C2;
+  color: white;
+  box-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+@media (max-width: 991px){
+  #botonBorrar {
+    margin-top: 0.5rem;
+  }
+}
